@@ -6,6 +6,7 @@ public class Main {
 
     private static final Random RANDOM = new Random();
 
+
     public static void main(String[] args) {
         List<Integer>nums = generateInts(10);
         System.out.println("Сгенерированные числа: " + nums);
